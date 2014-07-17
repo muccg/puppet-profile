@@ -1,4 +1,4 @@
 #
 class profile::debbuild {
-  include ccgcommon::source
+  class { '::ccgcommon::source': }
 }
