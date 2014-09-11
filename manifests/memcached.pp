@@ -1,6 +1,6 @@
 #
 class profile::memcached {
-  class { 'memcached': }
+  class { '::memcached': }
 
   include monit
   monit::monitor { 'memcached': }

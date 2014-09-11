@@ -8,7 +8,7 @@ class profile::rsyslog {
     log_auth_local        => false,
     custom_config         => undef,
     custom_params         => undef,
-    server                => 'log-syd.ec2.ccgapps.com.au',
+    server                => 'aws-syd-logstash.ec2.ccgapps.com.au',
     port                  => '514',
     ssl_ca                => undef,
   }
