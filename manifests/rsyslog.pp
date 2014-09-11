@@ -10,6 +10,7 @@ class profile::rsyslog {
     custom_params         => undef,
     server                => 'aws-syd-logstash.ec2.ccgapps.com.au',
     port                  => '514',
+    remote_forward_format => 'RSYSLOG_SyslogProtocol23Format',
     ssl_ca                => undef,
   }
 
