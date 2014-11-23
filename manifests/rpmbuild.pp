@@ -1,7 +1,6 @@
 #
 class profile::rpmbuild {
   class { '::ccgcommon::source': }
-  class { '::repo::epel': }
-  class { '::repo::pgrpms': }
-  class { '::repo::ius': }
+  class { '::repo::repo::pgrpms': }
+  class { '::repo::repo::ius': }
 }
